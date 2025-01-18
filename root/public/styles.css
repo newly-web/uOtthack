@@ -9,14 +9,14 @@ body {
 
 /* Header Container */
 .header-container {
-    background-color: rgb(0, 0, 0); /* Semi-transparent black background */
+    background-color: rgb(0, 0, 0); 
     padding: 10px 20px;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between; /* Pushes items to opposite ends */
-    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .header-container .logo {
@@ -37,23 +37,23 @@ body {
 
 /* Title and Subtitle Container */
 .text-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Light semi-transparent background */
+    background-color: rgba(255, 255, 255, 0.8); 
     display: inline-block;
     padding: 20px 30px;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px; 
 }
 
 .main-title {
-    font-size: 48px; /* Bigger font for the main title */
+    font-size: 48px; 
     font-weight: 700;
     margin-bottom: 10px;
-    color: #000; /* Black text for contrast */
+    color: #000; 
 }
 
 .subtitle {
     font-size: 20px;
     font-weight: 400;
-    color: #555; /* Subtle gray */
+    color: #555; 
 }
 
 /* Button Container */
@@ -67,33 +67,33 @@ body {
     color: white;
     padding: 10px 30px;
     border: none;
-    border-radius: 50px; /* Oval shape */
+    border-radius: 50px; 
     cursor: pointer;
     margin: 0 10px;
     transition: all 0.3s ease-in-out;
 }
 
 .sign-up-button {
-    background-color: #000; /* Black button */
+    background-color: #000; 
 }
 
 .sign-up-button:hover {
-    background-color: #333; /* Darker black on hover */
+    background-color: #333; 
 }
 
 .login-button {
-    background-color: #a6192e; /* Garnet red */
+    background-color: #a6192e; 
 }
 
 .login-button:hover {
-    background-color: #7c1423; /* Darker red on hover */
+    background-color: #7c1423; 
 }
 
 /* Footer Container */
 .footer-container {
     text-align: center;
     padding: 10px 20px;
-    background-color: rgb(0, 0, 0); /* Semi-transparent footer background */
+    background-color: rgb(0, 0, 0);
     color: white;
     font-size: 14px;
 }
@@ -101,12 +101,12 @@ body {
 /* Animation for the Campus Image */
 @keyframes slideInUp {
     0% {
-        transform: translateY(100%); /* Starts off-screen at the bottom */
-        opacity: 0; /* Fully transparent */
+        transform: translateY(100%); 
+        opacity: 0; 
     }
     100% {
-        transform: translateY(0); /* Ends at its original position */
-        opacity: 1; /* Fully visible */
+        transform: translateY(0); 
+        opacity: 1; 
     }
 }
 
@@ -114,8 +114,8 @@ body {
     position: sticky;
     top: 147px;
     left: 250px;
-    width: 75vw; /* 100% of the viewport width */
-    object-fit: cover; /* Ensures the image covers the screen without distortion */
-    z-index: 2; /* Pushes the image to the background behind other content */
-    animation: slideInUp 1.5s ease-out; /* Apply the slide-in-from-bottom animation */
+    width: 75vw; 
+    object-fit: cover; 
+    z-index: 2; 
+    animation: slideInUp 1.5s ease-out; 
 }
